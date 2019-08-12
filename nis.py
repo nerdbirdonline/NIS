@@ -88,12 +88,10 @@ bulletspeed = 50
 
 # define bullet state
 # ready - ready to fire
-#fire - bullet is firing
+# fire - bullet is firing
 bulletstate = "ready"
 
 # Move the player left and right
-
-
 def move_left():
     x = player.xcor()
     x -= playerspeed
